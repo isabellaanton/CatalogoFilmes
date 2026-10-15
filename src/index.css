@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #14161c;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: #1e222b;
+}
+
+header a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+header a.ativo {
+  color: #f2b84b;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: .6rem;
+  background: #1e222b;
+}
+
+a {
+  color: #f2b84b;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #1e222b;
+  padding: .8rem;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.erro {
+  color: #ff7a7a;
+}
