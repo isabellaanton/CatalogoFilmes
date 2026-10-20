@@ -104,7 +104,7 @@ npm install
 Crie um arquivo `.env` na raiz do projeto (ao lado do `package.json`):
 
 ```
-VITE_TMDB_API_KEY=sua_chave_aqui
+VITE_API=sua_chave_aqui
 ```
 
 Para obter a chave, crie uma conta gratuita em [themoviedb.org](https://www.themoviedb.org/) e solicite uma chave em **Configurações > API**.
